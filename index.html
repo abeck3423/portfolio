@@ -5,35 +5,83 @@
     <title>Alex Becker</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
 </head>
 <body>
-    <div class="navbar-container">
-        <nav>
+    <header class="header">
+        <div class="navbar-container">
+            <nav>
+                <ul>
+                    <a href="#contact section">
+                        <li class="contact-link">CONTACT</li>
+                    </a>
+                    <a href="#projects section">
+                        <li class="navProjects">PROJECTS</li>
+                    </a>
+                    <a href="#skills section">
+                        <li class="navSkills">SKILLS</li>
+                    </a>
+                    <a href="#about section">
+                        <li class="navAbout">ABOUT</li>
+                    </a>
+                    <a href="#home section">
+                        <li class="home">HOME</li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="home-section">
+        <h1 class="name">Alex Becker</h1>
+        <p class="profession">Software Engineer</p>
+        <img src="">
+    </div>
+
+
+    <div id="about_section">
+        <p class="about-center-title">ABOUT</p>
+        <p class="about-intro-title">Hi, I'm Alex!</p>
+        <div class="about-me-text">
+            I am a software engineer with a background in healthcare’s revenue cycle. Utilizing empathetic interpersonal skills with composed analytical skills to identify and resolve challenges in a fast paced stressful environment. I bring my passion for user experience into each project through dynamic collaboration with team members. Actively expanding technical skills through hands-on experience to cultivate unique solutions.
+        </div>
+    </div>
+
+    <div id="skills_section">
+        <p class="skills-center-title">SKILLS</p>
+        <div class="skills-container">
             <ul>
-                <a href="#contact section">
-                    <li class="contact-link">CONTACT</li>
-                </a>
-                <a href="#projects section">
-                    <li class="contact-link">PROJECTS</li>
-                </a>
-                <a href="#skills section">
-                    <li class="contact-link">SKILLS</li>
-                </a>
-                <a href="#about section">
-                    <li class="contact-link">ABOUT</li>
-                </a>
-                <a href="#home section">
-                    <li class="contact-link">HOME</li>
-                </a>
+                <li class="HTML5">HTML5</li>
+                <li class="CSS3">CSS3</li>
+                <li class="Github">Github</li>
+                <li class="Javascript">Javascript</li>
+                <li class="jQuery">jQuery</li>
             </ul>
+        </div>
+    </div>
 
-        </nav>
+    <div id="projects_section">
+        <p class="projects-center-title">PROJECTS</p>
+        <div class="projects-container">
+            <div class="projectList">
+                <div class="project1">
+                    <h2>PERSONAL PORTFOLIO</h2>
+                        <img src="" class="proj-img" id="myPortfolio">
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <div id="contacts_section">
+        <p class="contacts-center-title">LET'S CONNECT!</p>
+        <div class="my_email">
+            <p>Feel free to email me at: <a class href="mailto:abeck3423@gmail.com">abeck3423@gmail.com</a> or use the form below.
+        </div>
 
     </div>
 
 
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>

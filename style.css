@@ -50,6 +50,13 @@ body {
     margin: 5px;
 }
 
+.homePhoto {
+    display: inline-flex;
+    height: 414px;
+    width: 896px;
+    
+}
+
 .skillsList li {
     font-family: 'Poiret One', cursive;
     font-size: 13px;

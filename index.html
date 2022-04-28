@@ -7,16 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body> 
     
-    <!-- <video autoplay muted loop id="backgroundVideo">
-        <source src="background.mp4" type="video/mp4">
-      </video> -->
     <header class="header">
         <div class="navbar-container">
             <nav>
-                <ul class="navlist">
+                <ul class="navlist" id="myNavList">
                     <a href="#contact section">
                         <li class="contact-link">CONTACT</li>
                     </a>
@@ -32,6 +31,9 @@
                     <a href="#home section">
                         <li class="home">HOME</li>
                     </a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                      </a>
                 </ul>
             </nav>
         </div>

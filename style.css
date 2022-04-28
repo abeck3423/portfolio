@@ -1,5 +1,10 @@
 
-
+body {
+    font-family: "Helvetica",sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-color: #333;
+}
 
 .navbar-container {
     background-color: rgba(17, 80, 139, 0.7);
@@ -15,7 +20,7 @@
     min-height: 100%;
   }
 
-li {
+.navlist li {
     font-family: 'Poiret One', cursive;
     font-size: 13px;
     letter-spacing: 2px;
@@ -44,3 +49,89 @@ li {
     font-style: italic;
     margin: 5px;
 }
+
+.skillsList li {
+    font-family: 'Poiret One', cursive;
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: black;
+    display: inline-flex;
+    margin-right: 7px;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#about_section {
+    background-color: white;
+}
+
+.about-center-title {
+    font-style: italic;
+    max-width: 100%;
+    color: #524e4d;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-me-text {
+    color: #626e82;
+    font-family: 'Poiret One', cursive;
+    font-size: 23px;
+    letter-spacing: 1px;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.about-intro-title {
+    font-style: italic;
+    max-width: 100%;
+    color: #524e4d;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#skills_section {
+    background-color: white;
+}
+
+.skills-center-title {
+    font-style: italic;
+    max-width: 100%;
+    color: #524e4d;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+#projects_section {
+    background-color: white;
+}
+
+.projects-center-title {
+    font-style: italic;
+    max-width: 100%;
+    color: #524e4d;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#contacts_section {
+    background-color: white;
+}
+
+.contacts-center-title {
+    font-style: italic;
+    max-width: 100%;
+    color: #524e4d;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+

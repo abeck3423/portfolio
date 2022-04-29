@@ -39,3 +39,25 @@ function myFunction() {
     }
     form.addEventListener("submit", handleSubmit)
 
+
+const quotesUrl1 = "https://quotes.rest/qod";
+
+$.ajax({
+    method: "get",
+    url: quotesUrl1,
+    // mode: "random"
+})
+.then(function(response) {
+    console.log('success')
+    console.log(response)
+    let quote = response.contents.quotes[0].quote;
+    console.log(quote);
+    let author = response.contents.quotes[0].author;
+    console.log(author);
+    $('#quote').text(`${quote}-${author}`);
+})
+
+.catch(function() {
+    console.log('error')
+    console.log(response)
+   })

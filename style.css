@@ -32,7 +32,7 @@ body {
   
 
 .navlist a.active {
-    background-color: #04AA6D;
+    background-color: #070808;
     color: white;
 }
 
@@ -40,7 +40,7 @@ body {
     display: none;
   }
 
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 950px) {
     .navlist a:not(:first-child) {display: none;}
     .navlist a.icon {
       float: right;
@@ -52,7 +52,7 @@ body {
     color: rgb(107, 103, 103);
 }
 
-  @media screen and (max-width: 970px) {
+  @media screen and (max-width: 950px) {
     .navlist.responsive {position: relative;}
     .navlist.responsive a.icon {
       position: absolute;
@@ -135,7 +135,7 @@ body {
     padding: 0 2em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     .about-section-container {
         flex-direction: column;
     }
@@ -164,7 +164,7 @@ body {
     padding-right: 100px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     .about-me-text {
         padding: 15px;
     }
@@ -219,3 +219,54 @@ body {
     margin-top: 30px;
 }
 
+.my_email {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 23px;
+    letter-spacing: 1px;
+    padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.my_email a {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 23px;
+    letter-spacing: 1px;
+}
+
+
+.contact_form #my-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto 30px;
+}
+
+
+
+#my-form-button {
+    background-color: rgba(91, 85, 85, 0);
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+
+
+@media screen and (min-width: 950px) {
+    .contact_form #my-form {
+        flex-direction: row;
+    }
+
+    .contact_form #my-form .textbody {
+        width: 400px;
+    }
+
+    #my-form-button {
+        margin-left: 15px;
+    }
+}

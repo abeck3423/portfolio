@@ -67,17 +67,23 @@ body {
   }
 .home-section {
     text-align: center;
+    background-image: url("https://i.imgur.com/EKfBX8k.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
 }
 
 .home-section .name {
     text-align: center;
     text-transform: uppercase;
-    color: rgb(58, 109, 174);
+    color: rgb(168, 174, 182);
     font-size: 60px;
     padding-top: 20px;
     margin: 5px;
 }
 
+
+    
 
 .contact_form {
     border: none;
@@ -91,7 +97,7 @@ body {
 .home-section .profession {
     text-align: center;
     text-transform: uppercase;
-    color: rgb(58, 109, 174);
+    color: rgb(168, 174, 182);
     font-size: 40px;
     font-style: italic;
     margin: 5px;
@@ -99,9 +105,12 @@ body {
 
 .homePhoto {
     display: inline-flex;
-    height: 414px;
-    width: 896px;
+    flex: 0 1 auto;
     background-position: center;
+}
+
+.homePhoto img {
+    max-width: 250px;
 }
 
 .skillsList li {
@@ -118,6 +127,22 @@ body {
 
 #about_section {
     background-color: white;
+}
+
+.about-section-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 2em;
+}
+
+@media screen and (max-width: 700px) {
+    .about-section-container {
+        flex-direction: column;
+    }
+}
+
+.about-text-container {
+    flex: 0 1 auto;
 }
 
 .about-center-title {
@@ -139,6 +164,11 @@ body {
     padding-right: 100px;
 }
 
+@media screen and (max-width: 700px) {
+    .about-me-text {
+        padding: 15px;
+    }
+}
 
 .about-intro-title {
     font-style: italic;

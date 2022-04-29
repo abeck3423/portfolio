@@ -40,7 +40,7 @@ body {
     display: none;
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 970px) {
     .navlist a:not(:first-child) {display: none;}
     .navlist a.icon {
       float: right;
@@ -52,7 +52,7 @@ body {
     color: rgb(107, 103, 103);
 }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 970px) {
     .navlist.responsive {position: relative;}
     .navlist.responsive a.icon {
       position: absolute;

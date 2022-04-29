@@ -91,12 +91,16 @@
             <p>Feel free to email me at: <a class href="mailto:abeck3423@gmail.com">abeck3423@gmail.com</a> or use the form below.</p>
         </div>
         <div class="contact_form">
-            <form action="https://formspree.io/f/mqkngdgp" method="POST">
-                <input type="text" placeholder="Name" name="name">
-                <input type="email" placeholder="Email" name="_replyto">
-                <textarea type="textbox" placeholder="Message" name="message"></textarea>
-                <input class="form_submit" type="submit" value="Submit">
-            </form>
+            <form id="my-form" action="https://formspree.io/f/mqkngdgp" method="POST">
+                <label>Name:</label>
+                <input type="text" name="name" />
+                <label>Email:</label>
+                <input type="email" name="email" />
+                <label>Message:</label>
+                <input type="text" name="message" />
+                <button id="my-form-button">Submit</button>
+                <p id="my-form-status"></p>
+              </form>
         </div>
     </div>
 

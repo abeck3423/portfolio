@@ -1,9 +1,9 @@
 function myFunction() {
-    let x = document.getElementById("myNavList");
-    if (x.className === "navlist") {
-      x.className += " responsive";
+    let i = document.getElementById("myNavList");
+    if (i.className === "navlist") {
+      i.className += " responsive";
     } else {
-      x.className = "navlist";
+      i.className = "navlist";
     }
   }
 

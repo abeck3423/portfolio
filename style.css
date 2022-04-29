@@ -118,15 +118,22 @@ body {
     font-size: 23px;
     letter-spacing: 2px;
     color: black;
-    display: inline-flex;
+    list-style: none;
     margin-right: 7px;
     padding: 10px;
     border-radius: 50px;
     text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 950px) {
+    .skillsList li {
+    display: inline-flex;
+    }
 }
 
 #about_section {
-    background-color: white;
+    background-color: rgb(106, 159, 209);
 }
 
 .about-section-container {
@@ -139,6 +146,9 @@ body {
     .about-section-container {
         flex-direction: column;
     }
+    .homePhoto {
+        justify-content: center;
+    }
 }
 
 .about-text-container {
@@ -149,19 +159,20 @@ body {
     font-style: italic;
     max-width: 100%;
     color: #46403f;
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
     margin-top: 30px;
 }
 
 .about-me-text {
-    color: #46403f;
+    color: #3b3636;
     font-family: 'Poiret One', cursive;
     font-size: 23px;
     letter-spacing: 1px;
     padding: 15px;
     padding-left: 100px;
     padding-right: 100px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 950px) {
@@ -177,31 +188,32 @@ body {
     font-size: 26px;
     text-align: center;
     margin-top: 30px;
+    font-weight: bold;
 }
 
 #skills_section {
-    background-color: white;
+    background-color: rgb(106, 159, 209);
 }
 
 .skills-center-title {
     font-style: italic;
     max-width: 100%;
     color: #46403f;
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
     margin-top: 30px;
 }
 
 
 #projects_section {
-    background-color: white;
+    background-color: rgb(106, 159, 209);
 }
 
 .projects-center-title {
     font-style: italic;
     max-width: 100%;
     color: #46403f;
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
     margin-top: 30px;
 }
@@ -214,7 +226,7 @@ body {
     font-style: italic;
     max-width: 100%;
     color: rgb(168, 174, 182);
-    font-size: 26px;
+    font-size: 32px;
     text-align: center;
     margin-top: 30px;
 }
@@ -255,7 +267,9 @@ body {
     margin-top: 15px;
 }
 
-
+.textbody {
+    height: 200px;
+}
 
 @media screen and (min-width: 950px) {
     .contact_form #my-form {
@@ -264,6 +278,7 @@ body {
 
     .contact_form #my-form .textbody {
         width: 400px;
+        height: 50px
     }
 
     #my-form-button {

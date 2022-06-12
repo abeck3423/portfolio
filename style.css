@@ -72,6 +72,13 @@ nav {
   }
 }
 
+@media screen and (max-width: 450px) {
+  .dayQuote {
+    margin-bottom: 11em;
+    padding-bottom: 5em;
+  }
+}
+
 header {
   position: fixed;
   display: flex;
@@ -104,7 +111,7 @@ h1 {
 #myPhoto img {
   border-radius: 100%;
   width: 90%;
-  max-width: 470px;
+  max-width: 300px;
 }
 #personalStatement {
   max-width: 600px;

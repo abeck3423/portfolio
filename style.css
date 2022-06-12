@@ -80,8 +80,7 @@ nav {
 }
 
 header {
-  position: fixed;
-  display: flex;
+  display: block;
   align-items: center;
   background: rgb(194, 189, 189);
   background-color: transparent;
@@ -90,12 +89,6 @@ header {
 h1 {
   margin: 0 auto;
   font-size: 30px;
-}
-
-.slide {
-  min-width: 275px;
-  border-radius: 12px;
-  padding: 1em;
 }
 
 .title-name {
@@ -109,7 +102,7 @@ h1 {
   justify-content: center;
 }
 #myPhoto img {
-  border-radius: 100%;
+  border-radius: 25%;
   width: 90%;
   max-width: 300px;
 }

@@ -1,9 +1,29 @@
+//Function for hamburger nav bar
 const hamburger = document.getElementById("hamburger");
 const navUL = document.getElementById("nav-ul");
 
 hamburger.addEventListener("click", () => {
   navUL.classList.toggle("show");
 });
+
+//Function to activate swiper
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 3,
+  spaceBetween: 30,
+  slidesPerGroup: 3,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+//Function to submit form and receive confirmation
 
 const form = document.getElementById("my-form");
 

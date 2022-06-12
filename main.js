@@ -40,6 +40,7 @@ async function handleSubmit(event) {
 }
 form.addEventListener("submit", handleSubmit);
 
+//API call to quotes API
 const quotesUrl1 = "https://quotes.rest/qod";
 
 $.ajax({
@@ -60,4 +61,22 @@ $.ajax({
   .catch(function () {
     console.log("error");
     console.log(response);
+  });
+
+//API call to unsplash API for background image
+const unsplashAccessKey = "sOwYNq8rFvM5SA3eGEcDDmDZ15R020fRZmDly0X4LiY";
+
+$.ajax({
+  method: "get",
+  url:
+    "https://api.unsplash.com/photos/rX12B5uX7QM?client_id=" +
+    unsplashAccessKey,
+})
+  .then((response) => {
+    $("body").css("background-image", `url("${response.urls.full}")`);
+    $("#photoCredit").attr("href", `${response.user.links.html}`);
+    $("#photoCredit").html(`photo by ${response.user.name}`);
+  })
+  .catch(() => {
+    console.log("error in unsplash pull request");
   });

@@ -385,3 +385,10 @@ section .card .image img {
   opacity: 1;
   color: #7d2ae8;
 }
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  transition-property: transform;
+}

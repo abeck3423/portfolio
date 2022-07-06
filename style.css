@@ -245,4 +245,5 @@ p {
   margin: 0 0 10px;
   padding-left: 150px;
   display: flex;
+  text-align: left;
 }

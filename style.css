@@ -114,10 +114,11 @@ h1 {
 }
 
 #quote {
-  color: white;
-  text-shadow: 0px 0px 5px black;
+  color: black;
+  text-shadow: 0px 0px 5px white;
   text-align: center;
   align-self: center;
+  font-weight: bolder;
 }
 
 .dayQuote {
@@ -248,9 +249,14 @@ p {
 
 #brandStatement {
   padding-left: 0;
+  font-weight: bolder;
+  text-shadow: 0px 0px 5px white;
 }
 
 #theQuote {
+  padding-left: 0;
+}
+#titleQuote {
   padding-left: 0;
 }
 
@@ -262,6 +268,12 @@ p {
   h3 {
     font-size: 15px;
     margin-left: 62px;
+  }
+  #titleMyProjects {
+    margin-left: 0;
+  }
+  #titleConnect {
+    margin-left: 0;
   }
 }
 

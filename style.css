@@ -272,6 +272,10 @@ section {
   max-height: 350px;
 }
 
+.portfolioContent {
+  display: inline;
+}
+
 @media screen and (max-width: 420px) {
   .card .card-content {
     max-width: 300px;

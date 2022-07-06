@@ -258,6 +258,11 @@ p {
   .carousel p {
     display: none;
   }
+  .h3,
+  h3 {
+    font-size: 15px;
+    margin-left: 62px;
+  }
 }
 
 #titleName {

@@ -259,3 +259,35 @@ p {
     display: none;
   }
 }
+
+#titleName {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bold;
+}
+
+#titleJob {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bold;
+}
+
+#titleMySkills {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bold;
+}
+
+#titleMyProjects {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#titleConnect {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+  font-weight: bold;
+  font-size: 28px;
+}

@@ -228,6 +228,17 @@ footer ul {
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  padding-left: 0;
+}
+
+.fa-github:before {
+  content: "\f09b";
+  color: white;
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+  color: white;
 }
 
 /* //Swiper css */
@@ -316,11 +327,18 @@ p {
   color: rgb(229, 226, 226);
 }
 
-@media screen and (max-width: 450px) {
+#my-form {
+  display: grid;
+  color: white;
+}
+
+#my-form-button {
+  background-color: rgb(83, 83, 84);
+}
+
+@media screen and (min-width: 500px) {
   #my-form {
     display: grid;
+    min-width: 450px;
   }
-  /* input.textbody {
-    line-height: 30px;
-  } */
 }

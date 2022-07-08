@@ -315,3 +315,12 @@ p {
 .carousel-inner {
   color: rgb(229, 226, 226);
 }
+
+@media screen and (max-width: 450px) {
+  #my-form {
+    display: grid;
+  }
+  /* input.textbody {
+    line-height: 30px;
+  } */
+}

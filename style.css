@@ -330,11 +330,16 @@ p {
 
 #my-form {
   display: grid;
+  color: black;
+}
+
+.formTitles {
   color: white;
 }
 
 #my-form-button {
   background-color: rgb(83, 83, 84);
+  color: white;
 }
 
 @media screen and (min-width: 500px) {
